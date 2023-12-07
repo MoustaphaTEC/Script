@@ -1,1 +1,0 @@
-web: flask db upgrade; gunicorn twilio_verify:app
