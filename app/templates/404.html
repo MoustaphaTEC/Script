@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block app_content %}
+    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+        <h1>Page non trouvée</h1>
+        <p>
+            La page demandée est introuvable. Cliquez <a href="{{ url_for('home') }}">ici</a> pour revenir à la page d'accueil.
+        </p>
+    </div>
+{% endblock %}
